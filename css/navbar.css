@@ -1,0 +1,56 @@
+@font-face {
+	font-family: 'Saturday';
+	src: url('Saturday_be_like_Madness.ttf') format('truetype');
+}
+
+.navbar {
+	padding: 1vh;
+	background-color: #EBEFF2;
+	font-family: 'Saturday', Arial, serif;
+}
+
+
+#home {
+	margin-left: 3vw;
+}
+
+
+#name_dany {
+	text-align: center;
+	font-size: 7vh;
+}
+
+nav li {
+	margin-right: 6vw;
+	display : inline;
+}
+
+nav li a {
+	color: black;
+	font-size: 3vh;
+	display : inline;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	text-decoration: underline;
+	color: lightslategrey;
+}
+
+
+footer {
+	background-color: #EBEFF2;
+	padding: 2vh;
+}
+
+#year {
+	text-align: center;
+}
+
+
+
+
+
+
+
+

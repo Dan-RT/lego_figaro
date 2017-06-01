@@ -1,0 +1,11 @@
+
+#pic_section {
+    margin-top: 22vh;
+}
+
+img {
+    margin-top: 1vw;
+}
+img:hover {
+    opacity: 0.5;
+}

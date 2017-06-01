@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Saturday';
+    src: url('Saturday_be_like_Madness.ttf') format('truetype');
+}
+
+
+
+
+#Carousel {
+    margin-top: 22vh;
+}
+
+
+
+#more_title {
+    margin-top: 9vh;
+    padding: 3vh;
+    background-color: #EBEFF2;
+    text-align: center;
+    font-family: 'Saturday', Arial, serif;
+    font-size: 4vh;
+}
+
+#presentation {
+    padding: 10vh;
+    background-color: #262626;
+    color: #F2F2F2;
+    font-size: 2vh;
+}
+
+#second_presentation {
+    margin-top: 4vh;
+}
