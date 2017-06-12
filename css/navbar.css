@@ -1,33 +1,34 @@
+/*@font-face {
+    font-family: 'Saturday';
+    src: url('Saturday_be_like_Madness.ttf') format('truetype');
+}*/
+
 @font-face {
-	font-family: 'Saturday';
-	src: url('Saturday_be_like_Madness.ttf') format('truetype');
+	font-family: 'Helvetica_med';
+	src: url('HelveticaNeue Medium.ttf') format('truetype');
 }
 
 .navbar {
 	padding: 1vh;
 	background-color: #EBEFF2;
-	font-family: 'Saturday', Arial, serif;
-}
-
-
-#home {
-	margin-left: 3vw;
+	font-family: 'Helvetica_med', Arial, serif;
 }
 
 
 #name_dany {
 	text-align: center;
-	font-size: 7vh;
+	font-size: 5vh;
+	margin-bottom: 3vh;
 }
 
 nav li {
-	margin-right: 6vw;
+	margin-left: 3vw;
 	display : inline;
 }
 
 nav li a {
 	color: black;
-	font-size: 3vh;
+	font-size: 2.5vh;
 	display : inline;
 	text-decoration: none;
 }

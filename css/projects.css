@@ -1,11 +1,38 @@
 
 #pic_section {
     margin-top: 22vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
 
-img {
+a img {
     margin-top: 1vw;
 }
-img:hover {
+
+a img:hover {
     opacity: 0.5;
+}
+
+.presentation {
+    /*max-height: 30%;*/
+}
+
+
+/*
+[class*="col-"] {
+    background-color: lightgreen;
+    border: 2px solid black;
+    border-radius: 6px;
+    line-height: 40px;
+}
+*/
+
+.horizontal {
+    width: 100%;
+}
+
+
+.vertical {
+    max-height: 80vh;
+    margin-left: 7.6vw;
 }

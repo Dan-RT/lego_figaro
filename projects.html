@@ -5,10 +5,11 @@
 
     <link rel="stylesheet" type="text/css" href="css/projects.css">
     <link rel="stylesheet" href="css/navbar.css"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 </head>
 <html>
     <body>
@@ -16,59 +17,618 @@
 
         <div class="container-fullwidth">
 
-            <nav class="navbar nav navbar-nav navbar-fixed-top" >
-                <div class="row">
-                    <div class="col-lg-offset-3 col-lg-7">
-                        <h1 id="name_dany">Daniella Legorreta</h1>
+            <nav class="navbar navbar-inverse nav navbar-nav navbar-fixed-top">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Daniela Legoreta</a>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-offset-3 col-lg-8">
-                        <ul>
-                            <li id="home"><a href="index.html">HOME</a></li>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">HOME</a></li>
                             <li><a href="projects.html">PROJECTS</a></li>
-                            <li><a href="#">PORTOFOLIO</a></li>
-                            <li><a href="#">OTHER</a></li>
+                            <li><a href="#">ABOUT</a></li>
                             <li><a href="#">CONTACT</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
 
-            <div id="pic_section" class="row">
-                <div class="col-lg-offset-3 col-lg-9">
-                    <div class="row">
-                        <img class="col-lg-3" src="images/_DSC9949.jpg" alt="cup_family">
-                        <img class="col-lg-3" src="images/_DSC9952.jpg" alt="medium_cup">
-                        <img class="col-lg-3" src="images/_DSC9953.jpg" alt="small">
-                    </div>
-                    <div class="row">
 
-                        <img class="col-lg-3" src="images/_DSC9952.jpg" alt="medium_cup">
-                        <img class="col-lg-3" src="images/_DSC9953.jpg" alt="small">
-                        <img class="col-lg-3" src="images/_DSC9949.jpg" alt="cup_family">
+            <div id="pic_section" class="row">
+
+                <div class="presentation col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <a href="#" data-toggle="modal" data-target="#ModalHobo">
+                        <img class="img-responsive" src="images/Squarevictoriaoaci7.jpg" alt="hobo_guitar">
+                    </a>
+                </div>
+
+                <div class="presentation col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <a href="#" data-toggle="modal" data-target="#ModalFruits">
+                        <img class="img-responsive" src="images/azul.jpg" alt="fruit_head">
+                    </a>
+                </div>
+
+                <div class="presentation col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <a href="#" data-toggle="modal" data-target="#ModalFeet">
+                        <img class="img-responsive" src="images/maps9.jpg" alt="Feet_art">
+                    </a>
+                </div>
+
+                <div class="presentation col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <a href="#" data-toggle="modal" data-target="#ModalBench">
+                        <img class="img-responsive" src="images/bancspubliques1.jpg" alt="public_bench">
+                    </a>
+                </div>
+
+                <div class="presentation col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                    <a href="#" data-toggle="modal" data-target="#ModalCora">
+                        <img class="img-responsive" src="images/cora1.jpg" alt="young_girl">
+                    </a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-offset-3 col-lg-9">
+
+                    <!-- Modal -->
+                    <div id="ModalHobo" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <!-- <h4 class="modal-title">Modal Header</h4>-->
+                                </div>
+                                <div class="modal-body">
+                                    <div id="CarouselHobo" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#CarouselHobo" data-slide-to="0" class="active"></li>
+                                            <li data-target="#CarouselHobo" data-slide-to="1"></li>
+                                            <li data-target="#CarouselHobo" data-slide-to="2"></li>
+                                            <li data-target="#CarouselHobo" data-slide-to="4"></li>
+                                            <li data-target="#CarouselHobo" data-slide-to="5"></li>
+                                            <li data-target="#CarouselHobo" data-slide-to="6"></li>
+                                            <li data-target="#CarouselHobo" data-slide-to="7"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <img class="horizontal" src="images/Squarevictoriaoaci7.jpg">
+                                                <div class="carousel-caption">
+                                                     <h3>Insert a title</h3>
+                                                     <p>Insert a sub-title</p>
+                                                 </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="horizontal" src="images/Squarevictoriaoaci1.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/Squarevictoriaoaci8.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/Squarevictoriaoaci2.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/Squarevictoriaoaci6.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/Squarevictoriaoaci4.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/Squarevictoriaoaci5.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/Squarevictoriaoaci3.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#CarouselHobo" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#CarouselHobo" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="row">
-                        <img class="col-lg-3" src="images/_DSC9953.jpg" alt="small">
-                        <img class="col-lg-3" src="images/_DSC9949.jpg" alt="cup_family">
-                        <img class="col-lg-3" src="images/_DSC9952.jpg" alt="medium_cup">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-offset-3 col-lg-9">
+
+                    <!-- Modal -->
+                    <div id="ModalFruits" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <!-- <h4 class="modal-title">Modal Header</h4>-->
+                                </div>
+                                <div class="modal-body">
+                                    <div id="CarouselFruits" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#CarouselFruits" data-slide-to="0" class="active"></li>
+                                            <li data-target="#CarouselFruits" data-slide-to="1"></li>
+                                            <li data-target="#CarouselFruits" data-slide-to="2"></li>
+                                            <li data-target="#CarouselFruits" data-slide-to="3"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+
+                                            <div class="item active">
+                                                <img class="horizontal" src="images/azul.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="horizontal" src="images/amarillo.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="horizontal" src="images/rojo.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="horizontal" src="images/rosa.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#CarouselFruits" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#CarouselFruits" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
-                    <div class="row">
-                        <img class="col-lg-3" src="images/_DSC9949.jpg" alt="cup_family">
-                        <img class="col-lg-3" src="images/_DSC9952.jpg" alt="medium_cup">
-                        <img class="col-lg-3" src="images/_DSC9953.jpg" alt="small">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-offset-3 col-lg-9">
+
+                    <!-- Modal -->
+                    <div id="ModalFeet" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <!-- <h4 class="modal-title">Modal Header</h4>-->
+                                </div>
+                                <div class="modal-body">
+                                    <div id="CarouselFeet" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#CarouselFeet" data-slide-to="0" class="active"></li>
+                                            <li data-target="#CarouselFeet" data-slide-to="1"></li>
+                                            <li data-target="#CarouselFeet" data-slide-to="2"></li>
+                                            <li data-target="#CarouselFeet" data-slide-to="3"></li>
+                                            <li data-target="#CarouselFeet" data-slide-to="4"></li>
+                                            <li data-target="#CarouselFeet" data-slide-to="5"></li>
+                                            <li data-target="#CarouselFeet" data-slide-to="6"></li>
+                                            <li data-target="#CarouselFeet" data-slide-to="7"></li>
+                                            <li data-target="#CarouselFeet" data-slide-to="8"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <img class="horizontal" src="images/maps9.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="horizontal" src="images/maps1.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="horizontal" src="images/maps2.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/maps3.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="horizontal" src="images/maps4.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/maps5.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/maps6.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/maps7.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="horizontal" src="images/maps8.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#CarouselFeet" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#CarouselFeet" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-offset-3 col-lg-9">
+
+                    <!-- Modal -->
+                    <div id="ModalBench" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <!-- <h4 class="modal-title">Modal Header</h4>-->
+                                </div>
+                                <div class="modal-body">
+                                    <div id="CarouselBench" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#CarouselBench" data-slide-to="0" class="active"></li>
+                                            <li data-target="#CarouselBench" data-slide-to="1"></li>
+                                            <li data-target="#CarouselBench" data-slide-to="2"></li>
+                                            <li data-target="#CarouselBench" data-slide-to="3"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+
+                                            <div class="item active">
+                                                <img class="vertical" src="images/bancspubliques1.jpg">
+                                                <div class="carousel-caption">
+                                                    <p>Banc publique</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/bancspubliques2.jpg">
+                                                <div class="carousel-caption">
+                                                    <p>Banc publique</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/bancspubliques3.jpg">
+                                                <div class="carousel-caption">
+                                                    <p>Banc publique</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/bancspubliques4.jpg">
+                                                <div class="carousel-caption">
+                                                    <p>Banc publique</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#CarouselBench" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#CarouselBench" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-offset-3 col-lg-9">
+
+                    <!-- Modal -->
+                    <div id="ModalCora" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <!-- <h4 class="modal-title">Modal Header</h4>-->
+                                </div>
+                                <div class="modal-body">
+                                    <div id="CarouselCora" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#CarouselCora" data-slide-to="0" class="active"></li>
+                                            <li data-target="#CarouselCora" data-slide-to="1"></li>
+                                            <li data-target="#CarouselCora" data-slide-to="2"></li>
+                                            <li data-target="#CarouselCora" data-slide-to="3"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+
+                                            <div class="item active">
+                                                <img class="vertical" src="images/cora1.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/cora2.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/cora3.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                            <div class="item">
+                                                <img class="vertical" src="images/cora4.jpg">
+                                                <div class="carousel-caption">
+                                                    <h3>Insert a title</h3>
+                                                    <p>Insert a sub-title</p>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#CarouselCora" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#CarouselCora" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-offset-3 col-lg-9">
+
+                    <!-- Modal -->
+                    <div id="myModal" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <!-- <h4 class="modal-title">Modal Header</h4>-->
+                                </div>
+                                <div class="modal-body">
+                                    <div id="Carousel" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#Carousel" data-slide-to="1"></li>
+                                            <li data-target="#Carousel" data-slide-to="2"></li>
+                                        </ol>
+
+                                        <!-- Wrapper for slides -->
+                                        <div class="carousel-inner">
+                                            <div class="item active">
+                                                <img src="images/_DSC9949.jpg">
+                                                <!-- <div class="carousel-caption">
+                                                     <h3>We are family</h3>
+                                                     <p>Tim Horton's Xmas cups</p>
+                                                 </div>-->
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/_DSC9952.jpg" alt="medium_cup">
+                                                <!--<div class="carousel-caption">
+                                                    <h3>Checkout the medium size</h3>
+                                                    <p>Yes it's only medium</p>
+                                                </div>-->
+                                            </div>
+
+                                            <div class="item">
+                                                <img src="images/_DSC9953.jpg" alt="small">
+                                                <!--<div class="carousel-caption">
+                                                    <h3>Small size for little snacks</h3>
+                                                    <p>That's what she said</p>
+                                                </div>-->
+                                            </div>
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a class="left carousel-control" href="#Carousel" data-slide="prev">
+                                            <span class="glyphicon glyphicon-chevron-left"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="right carousel-control" href="#Carousel" data-slide="next">
+                                            <span class="glyphicon glyphicon-chevron-right"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+                                </div>
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
 
 
-
-
         </div>
 
 
-        <script src="assets/lib/js/jquery.min.js"></script>
-        <script src="assets/lib/js/bootstrap.min.js"></script>
-        <script src="assets/lib/js/bootstrap.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <!--<script src="js/modal.js"></script>-->
     </body>
 </html>

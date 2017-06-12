@@ -1,6 +1,11 @@
-@font-face {
+/*@font-face {
     font-family: 'Saturday';
     src: url('Saturday_be_like_Madness.ttf') format('truetype');
+}*/
+
+@font-face {
+    font-family: 'Helvetica_med';
+    src: url('HelveticaNeue Medium.ttf') format('truetype');
 }
 
 
@@ -17,7 +22,7 @@
     padding: 3vh;
     background-color: #EBEFF2;
     text-align: center;
-    font-family: 'Saturday', Arial, serif;
+    font-family: 'Helvetica_med', Arial, serif;
     font-size: 4vh;
 }
 
